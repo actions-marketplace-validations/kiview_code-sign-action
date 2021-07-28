@@ -1,5 +1,7 @@
 Thank you to [Dirk Lemstra](https://github.com/dlemstra/code-sign-action) for providing a base for me to create this action. 
 
+Based on [code-sign-action](https://github.com/Dana-Prajea/code-sign-action), with some changes from [this PR](https://github.com/Dana-Prajea/code-sign-action/pull/2) applied.
+
 # Code sign a file
 
 This action signs files that are supported by `signtool.exe` with a code signing certificate that takes in a password. This action only works on Windows and that means it should run on `windows-latest`.
